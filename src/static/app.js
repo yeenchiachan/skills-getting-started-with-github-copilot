@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         data-activity="${encodedActivity}"
                         data-email="${encodedParticipant}"
                       >
-                        <span aria-hidden="true">&times;</span>
+                        <span class="owl-icon" aria-hidden="true">&#129417;</span>
                       </button>
                     </li>
                   `;

@@ -123,22 +123,26 @@ section h3 {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  border: 1px solid #ffc9c9;
-  background-color: #fff0f0;
-  color: #b42318;
+  border: 1px solid #d8c9af;
+  background-color: #f7f1e6;
+  color: #5c4632;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0;
   line-height: 1;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
   transition: transform 0.15s ease, background-color 0.2s ease;
 }
 
 .remove-participant-btn:hover {
-  background-color: #ffe4e4;
+  background-color: #efe3d2;
   transform: scale(1.05);
+}
+
+.owl-icon {
+  transform: translateY(-0.5px);
 }
 
 .remove-participant-btn:disabled {
